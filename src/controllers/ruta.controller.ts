@@ -20,6 +20,7 @@ import {
 import {Rutas} from '../models';
 import {RutasRepository} from '../repositories';
 
+
 export class RutaController {
   constructor(
     @repository(RutasRepository)
